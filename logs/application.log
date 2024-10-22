@@ -1,0 +1,21 @@
+2024-10-22 16:10:28,335 - app.model_handler - INFO - Initializing ECGModel with model path: /home/ECG2AFWebApp/models/ecg_5000_survival_curve_af_quadruple_task_mgh_v2021_05_21.h5
+2024-10-22 16:10:28,337 - app.model_handler - INFO - Loading model from path: /home/ECG2AFWebApp/models/ecg_5000_survival_curve_af_quadruple_task_mgh_v2021_05_21.h5
+2024-10-22 16:10:33,856 - app.model_handler - INFO - Model loaded successfully from: /home/ECG2AFWebApp/models/ecg_5000_survival_curve_af_quadruple_task_mgh_v2021_05_21.h5
+2024-10-22 16:10:33,867 - app.model_handler - INFO - ECGModel initialized successfully
+2024-10-22 16:10:33,868 - app.ecg_processor - INFO - ECGProcessor initialized with shape: [5000, 12], leads: {'strip_I': 0, 'strip_II': 1, 'strip_III': 2, 'strip_V1': 3, 'strip_V2': 4, 'strip_V3': 5, 'strip_V4': 6, 'strip_V5': 7, 'strip_V6': 8, 'strip_aVF': 9, 'strip_aVL': 10, 'strip_aVR': 11}
+2024-10-22 16:10:33,869 - app.interface - INFO - Initializing ECGGradioApp
+2024-10-22 16:10:33,870 - app.interface - INFO - ECGGradioApp initialized successfully
+2024-10-22 16:10:33,870 - app.interface - INFO - Launching Gradio interface
+2024-10-22 16:10:34,081 - httpx - INFO - HTTP Request: GET https://checkip.amazonaws.com/ "HTTP/1.1 200 "
+2024-10-22 16:10:34,283 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/startup-events "HTTP/1.1 200 OK"
+2024-10-22 16:10:34,424 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-10-22 16:10:34,426 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-10-22 16:11:16,821 - app.interface - INFO - Received ECG file for prediction: /tmp/gradio/89c97fa770b2833dd4d8398c816745ec3583a2a6a46059ac882edf6160bebd31/fake_0.hd5
+2024-10-22 16:11:16,824 - app.ecg_processor - INFO - Processing ECG file: /tmp/gradio/89c97fa770b2833dd4d8398c816745ec3583a2a6a46059ac882edf6160bebd31/fake_0.hd5
+2024-10-22 16:11:16,912 - app.ecg_processor - INFO - ECG file processed successfully: /tmp/gradio/89c97fa770b2833dd4d8398c816745ec3583a2a6a46059ac882edf6160bebd31/fake_0.hd5
+2024-10-22 16:11:16,916 - app.model_handler - INFO - Making predictions with ECG tensor of shape: (1, 5000, 12)
+2024-10-22 16:11:18,557 - app.model_handler - INFO - Predictions made successfully
+2024-10-22 16:11:18,558 - app.interface - INFO - Predictions made successfully
+2024-10-22 16:11:18,559 - app.interface - INFO - Generating outputs from predictions
+2024-10-22 16:11:18,689 - app.interface - INFO - Outputs generated successfully
+2024-10-22 16:17:54,212 - app.interface - INFO - Gradio interface launched successfully

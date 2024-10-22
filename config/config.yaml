@@ -1,0 +1,48 @@
+#Model Settings
+model_path: "models/ecg_5000_survival_curve_af_quadruple_task_mgh_v2021_05_21.h5"
+
+ecg_shape: [5000, 12]
+
+ecg_leads:
+  strip_I: 0
+  strip_II: 1
+  strip_III: 2
+  strip_V1: 3
+  strip_V2: 4
+  strip_V3: 5
+  strip_V4: 6
+  strip_V5: 7
+  strip_V6: 8
+  strip_aVF: 9
+  strip_aVL: 10
+  strip_aVR: 11
+
+ecg_hd5_path: "ukb_ecg_rest"
+
+#Logging
+logging:
+ version: 1
+
+ disable_existing_loggers: False
+
+ formatters:
+  simple:
+   format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+ handlers:
+  console:
+   class: logging.StreamHandler
+   formatter: simple
+   level: DEBUG
+  file:
+      class: logging.FileHandler
+      formatter: simple
+      level: DEBUG
+      filename: 'logs/application.log'
+   
+ root:
+  level: INFO
+  handlers: [console, file]
+
+
+
