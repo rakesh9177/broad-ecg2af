@@ -18,6 +18,7 @@ This project is an ECG prediction application built using Gradio, TensorFlow, an
   - [Horizontal Scaling](#horizontal-scaling)
   - [Auto-scaling on Cloud](#auto-scaling-on-cloud)
   - [Potential Database Integration](#potential-database-integration)
+  - [Other Optimizations](other-optimizations)
 - [License](#license)
 
 ## Installation
@@ -124,7 +125,7 @@ To make the application more scalable and data-intensive, you could integrate a 
 - **Message Queues**: Use RabbitMQ or Google Pub/Sub for better workload distribution and async processing.
 - **Cloud Storage**: Store files temporarily in **Google Cloud Storage** or **AWS S3** instead of handling them directly on the application server. Once files are uploaded, the system can asynchronously process them.
 
-### Other optimizations
+### Other Optimizations
 **Efficient Resource Allocation**:
    - Optimize **CPU and memory allocation** per container/replica. 
    - Use **TensorFlow Serving** or optimize
