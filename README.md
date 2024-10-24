@@ -71,6 +71,18 @@ You can deploy this Docker container on Google Cloud using Google Cloud Run or G
    - Predicted sex (Male/Female).
    - Predicted age.
    - Atrial fibrillation classification.
+### Predictions Display
+
+The Gradio app provides the following four predictions for each uploaded ECG file:
+
+1. **Survival Curve Prediction (Slider)**: A slider that displays the probability score of the survival curve for incident atrial fibrillation, ranging from 0 to 1.
+   
+2. **Predicted Sex (Bar Chart)**: A horizontal bar chart visualizing the predicted probability of the patient being male or female.
+
+3. **Predicted Age (Slider)**: A slider that estimates the patient's age, ranging from 0 to 100 years, based on the ECG data.
+
+4. **Atrial Fibrillation Classification (Bar Chart)**: A bar chart showing the probability of atrial fibrillation, categorized as Yes or No.
+
 
 ## Key Components
 
