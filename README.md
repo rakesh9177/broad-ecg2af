@@ -80,9 +80,6 @@ The `ECGModel` class handles loading the pre-trained TensorFlow model and making
 
 The `ECGProcessor` class processes the raw ECG data from an HD5 file and converts it into a tensor format for prediction. It normalizes the ECG data by subtracting the mean and dividing by the standard deviation.
 
-**Main Methods:**
-- `ecg_as_tensor(ecg_file)`: Reads the ECG file, processes it into a tensor, and normalizes the data.
-
 ### Visualizer
 
 The `Visualizer` class generates visualizations of the prediction results. The primary method is responsible for creating a horizontal bar chart that displays the predicted probabilities for different categories (e.g., male/female, yes/no).
