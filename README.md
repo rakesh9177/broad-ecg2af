@@ -18,7 +18,7 @@ This project is an ECG prediction application built using Gradio, TensorFlow, an
   - [Horizontal Scaling](#horizontal-scaling)
   - [Auto-scaling on Cloud](#auto-scaling-on-cloud)
   - [Potential Database Integration](#potential-database-integration)
-  - [Other Optimizations](other-optimizations)
+  - [Other Optimizations](#other-optimizations)
 - [License](#license)
 
 ## Installation
