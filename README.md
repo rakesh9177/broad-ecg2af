@@ -6,7 +6,7 @@ This project is an ECG prediction application built using Gradio, TensorFlow, an
 
 The main functional code is under /app
 
-Scalabilty is answered in below section
+Scalability is answered in below section
 
 ## Table of Contents
 
