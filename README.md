@@ -19,7 +19,7 @@ This project is an ECG prediction application built using Gradio, TensorFlow, an
   - [Auto-scaling on Cloud](#auto-scaling-on-cloud)
   - [Potential Database Integration](#potential-database-integration)
   - [Other Optimizations](#other-optimizations)
-- [Acknowledments](#acknowledgements)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Installation
@@ -146,7 +146,7 @@ To make the application more scalable and data-intensive, you could integrate a 
 **Batch Request Processing**:
   - If immediate results are not needed, batch processing can be implemented by aggregating requests and processing them at scheduled intervals.
 
-## Acknowledgments
+## Acknowledgements
 
 This project includes contributions from [ChatGPT](https://openai.com/chatgpt) for assisting with the following:
 
