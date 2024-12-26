@@ -1,6 +1,6 @@
 # ECG Prediction Gradio App
 
-Demo link(deployed on gcp) - http://35.193.94.168:7860/
+Demo link(deployed on gcp) - http://35.193.94.168:7860/ (down)
 
 This project is an ECG prediction application built using Gradio, TensorFlow, and ML4H libraries. The app allows users to upload ECG files in HD5 format and receive multi-task predictions - atrial fibrillation survival curve predictions, sex and age classification, and atrial fibrillation detection. The project includes model processing, ECG data preprocessing, and visualization of the prediction results.
 
