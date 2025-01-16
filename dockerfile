@@ -20,6 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+RUN python /app/scripts/tscript.py
 # Expose the port your Gradio app runs on
 
 EXPOSE 7860
